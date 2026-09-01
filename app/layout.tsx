@@ -1,0 +1,1 @@
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="fr"><body style={{margin:0,fontFamily:"Inter,Arial",background:"#090909",color:"#F5F5F5"}}>{children}</body></html>}

@@ -1,0 +1,1 @@
+const items=["War Room","Stock","CRM","Imports","Finance","Documents","KOI Jarvis","KOI Brain","KOI Memory","Guardian","Genome","Cloud"];export default function Sidebar(){return <aside style={{width:240,borderRight:"1px solid #2A2A2A",padding:24}}><h2>KOI SXM</h2>{items.map(i=><div key={i} style={{padding:"10px 0"}}>{i}</div>)}</aside>}
