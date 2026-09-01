@@ -1,13 +1,15 @@
-type Props = {
+export default function KPI({
+  title,
+  value,
+}: {
   title: string;
   value: string;
-};
-
-export default function KPI({ title, value }: Props) {
+}) {
   return (
-    <div style={{ padding: 20, border: "1px solid #333", borderRadius: 12 }}>
-      <h3>{title}</h3>
-      <p>{value}</p>
+    <div className="rounded-2xl border border-zinc-800 bg-zinc-950 p-6">
+      <p className="text-zinc-500">{title}</p>
+
+      <h2 className="text-3xl font-bold mt-2">{value}</h2>
     </div>
   );
 }
