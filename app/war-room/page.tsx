@@ -1,5 +1,5 @@
-import Sidebar from "@/components/dashboard/Sidebar";
-import KPI from "@/components/dashboard/KPI";
+import Sidebar from "../../components/dashboard/Sidebar";
+import KPI from "../../components/dashboard/KPI";
 
 export default function WarRoom() {
   return (
